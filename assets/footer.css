@@ -1,0 +1,17 @@
+.footer_container
+{
+    text-align: center;
+}
+.footer_left
+{
+    display: inline-block;
+    justify-content: left;
+    width: 45%; 
+}
+.footer_right
+{
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: right;
+    width: 45%; 
+}
