@@ -9,12 +9,12 @@
     </div>
     <div class="footer_right">
       <ul class="list-inline text-center">
-        {% if site.email %}
+        {% if site.instagram_username %}
         <li class="list-inline-item">
-          <a href="mailto:{{ site.email | encode_email }}">
+          <a href="https://instagram.com/{{ site.instagram_username }}">
             <span class="fa-stack fa-lg">
               <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
             </span>
           </a>
         </li>
@@ -29,42 +29,21 @@
           </a>
         </li>
         {% endif %}
-        {% if site.facebook_username %}
+        {% if site.vgen_username %}
         <li class="list-inline-item">
-          <a href="https://www.facebook.com/{{ site.facebook_username }}">
+          <a href="https://www.vgen.co/{{ site.vgen_username }}">
             <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              <i class="fa-solid fa-link"></i>
             </span>
           </a>
         </li>
         {% endif %}
-        {% if site.linkedin_username %}
+        {% if site.email %}
         <li class="list-inline-item">
-          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+          <a href="mailto:{{ site.email | encode_email }}">
             <span class="fa-stack fa-lg">
               <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        {% endif %}
-        {% if site.github_username %}
-        <li class="list-inline-item">
-          <a href="https://github.com/{{ site.github_username }}">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        {% endif %}
-        {% if site.instagram_username %}
-        <li class="list-inline-item">
-          <a href="https://instagram.com/{{ site.instagram_username }}">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+              <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
             </span>
           </a>
         </li>

@@ -1,16 +1,14 @@
 title:              Glerf
-email:              your-email@example.com
+email:              guadalupe.ferreiraleroi@gmail.com
 description:        I’m a digital artist from Buenos Aires, Argentina. I love to explore my style and skills with 2D concept art, pixel art and sometimes other art mediums. Here I have everything I have to offer as an artist, as well as my passions and personal interests.
 author:             Guadalupe Ferreira Le Roi
 baseurl:            ""
 url:                "https://glerf.art"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
+instagram_username: g.lerf
+twitter_username:   g_lerf
+vgen_username:      Glerf
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
