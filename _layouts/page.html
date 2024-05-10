@@ -6,13 +6,13 @@ layout: default
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
-  <header class="masthead">
+  <header class="masthead" style="background-color: white;">
     {% endif %}
-    <div class="overlay"></div>
+    <div class="overlay" style="background-color: white;"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
+          <div class="page-heading" style="color: black;">
             <h1>{{ page.title }}</h1>
             {% if page.description %}
             <span class="subheading">{{ page.description }}</span>
