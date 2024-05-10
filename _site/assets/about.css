@@ -1,0 +1,13 @@
+.about-container 
+{
+    margin-left: -50%;
+    margin-right: -50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Gap between images */
+}
+.about-container-image img 
+{
+    width: 100%; /* Make images fill their grid cells */
+    height: auto; /* Maintain aspect ratio */
+}

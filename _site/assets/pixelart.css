@@ -1,4 +1,4 @@
-.images-container 
+.pixelart-images-container 
 {
     margin-left: -50%;
     margin-right: -50%;
@@ -7,7 +7,7 @@
     gap: 10px; /* Gap between images */
 }
 
-.images-container img 
+.pixelart-images-container img 
 {
     width: 100%; /* Make images fill their grid cells */
     height: auto; /* Maintain aspect ratio */
